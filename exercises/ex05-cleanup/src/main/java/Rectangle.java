@@ -2,22 +2,22 @@ public class Rectangle {
     private double width;
     private double height;
 
-    public Rectangle(double w,double h){
-        this.width=w;
-        this.height=h;
+    public Rectangle(double width, double height){
+        this.width = width;
+        this.height = height;
     }
 
-    public double area(){
-        return width*height;
+    public double area() {
+        return width * height;
     }
 
     /**
-     * scales the rectangle
-     * @param factor
+     * Scales both dimensions of the rectangle by the given factor.
+     * @param factor is the multiplier applied to width and height. 
      */
     public void scale(double factor) {
-      width = width * factor;
-      height = height * factor;
+        width *= factor;
+        height *= factor;
     }
 
     public boolean isLargerThan(Rectangle other){
