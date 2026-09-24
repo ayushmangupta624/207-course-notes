@@ -13,7 +13,7 @@ public class Rectangle {
 
     /**
      * Scales both dimensions of the rectangle by the given factor.
-     * @param factor is the multiplier applied to width and height. 
+     * @param factor is the multiplier applied to width and height.
      */
     public void scale(double factor) {
         width *= factor;
